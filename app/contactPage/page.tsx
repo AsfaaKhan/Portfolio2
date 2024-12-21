@@ -20,7 +20,7 @@ export default function Contact() {
             {/* Links */}
             <div className="style flex flex-col gap-6 md:flex-row border  p-8 shadow-md ">
                 <div>
-                    <Link href={"/"} className="flex gap-5 justify-center items-center text-[30px] hover:text-primary">
+                    <Link href={"https://github.com/AsfaaKhan"} className="flex gap-5 justify-center items-center text-[30px] hover:text-primary">
                         <FaGithub size={60} />
 
                         <span>GitHub</span>
@@ -28,14 +28,14 @@ export default function Contact() {
                 </div>
 
                 <div>
-                    <Link href={"/"} className="flex gap-5 justify-center items-center text-[30px] hover:text-primary">
+                    <Link href={"https://x.com/KhanAsfaa?s=08"} className="flex gap-5 justify-center items-center text-[30px] hover:text-primary">
                         <FaTwitter size={60} />
                         Twitter
                     </Link>
                 </div>
 
                 <div>
-                    <Link href={"/"} className="flex gap-5 justify-center items-center text-[30px] hover:text-primary">
+                    <Link href={"https://www.linkedin.com/in/asfaa-khan-4b80a0267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"} className="flex gap-5 justify-center items-center text-[30px] hover:text-primary">
                         <FaLinkedin size={60} />
                         Linkedin
                     </Link>
