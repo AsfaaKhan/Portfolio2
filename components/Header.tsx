@@ -13,7 +13,7 @@ export default function Header() {
     return (
         <>
             {/* NAVBAR */}
-            <nav className="bg-transparent w-full z-10 top-0 fixed p-[20px] ">
+            <nav className="bg-white w-full z-10 top-0 fixed p-[20px] ">
                 <div className="container mx-auto flex justify-between items-center h-8">
                     {/* LOGO */}
                     <div className="text-black  text-2xl flex  justify-center items-center gap-2" > 
@@ -37,13 +37,13 @@ export default function Header() {
                     </div> 
     
                     {/* HAMBURGER NAVBAR */}
-                    <div className="md:hidden bg-transparent p-4 flex flex-col justify-center items-center gap-3" onClick={handleNavbar} >
+                    <div className="md:hidden p-4 flex flex-col justify-center items-center gap-3" onClick={handleNavbar} >
                         {navbar ? <CgMenuMotion  size={40}/> : <CgMenu size={40}/>}
                     </div>
                 </div>
 
                 {navbar && (
-                    <div className="md:hidden bg-transparent p-4 flex flex-col justify-center items-center gap-4 text-center text-xl" >
+                    <div className="md:hidden bg-white p-4 flex flex-col justify-center items-center gap-4 text-center text-xl" >
                         <Link href="/"  
                         className="hover:text-primary hover:underline" onClick={handleNavbar}>Home</Link>
                         <Link href="/aboutPage"  className="hover:text-primary
