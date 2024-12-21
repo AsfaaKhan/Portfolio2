@@ -13,7 +13,7 @@ export default function Header() {
     return (
         <>
             {/* NAVBAR */}
-            <nav className="bg-transparent w-full z-20 p-[20px]">
+            <nav className="bg-transparent w-full z-10 top-0 fixed p-[20px] ">
                 <div className="container mx-auto flex justify-between items-center h-8">
                     {/* LOGO */}
                     <div className="text-black  text-2xl flex  justify-center items-center gap-2" > 
