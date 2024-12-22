@@ -15,7 +15,7 @@ export default function Section() {
     return (
         <div> 
             {/* Hero Section */}
-            <div className="bg-[url('/images/1.jpg')] bg-cover bg-center bg-no-repeat h-[40vh] md:h-[50vh] lg:h-[80vh] flex justify-center items-center text-center">
+            <div className="mt-10 bg-[url('/images/1.jpg')] bg-cover bg-centerr bg-no-repeat h-[50vh] md:h-[50vh] lg:h-[80vh] flex justify-center items-center text-center">
                 <div className="flex flex-col justify-center items-center text-center gap-6 ">
                     <h1 className={`font-bold text-7xl ${FontNic.className}`}>Asfaa Khan</h1>
                     <p className="font-bold text-5xl ">Web Developer</p>

@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Contact() {
     return (
-        <div className="my-40 flex flex-col justify-center items-center text-center gap-10" >
+        <div className="mt-24 my-40 flex flex-col justify-center items-center text-center gap-10" >
             {/* Image */}
             <div>
                 <Image src={"/images/contact.jpg"}

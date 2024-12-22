@@ -10,7 +10,7 @@ const FontNic = Niconne (
 
 export default function MainAbout(){
     return(
-        <div className=" my-10">
+        <div className="mt-24 my-10">
 
             {/* Container 1 */}
             <div className="flex flex-col justify-center items-center text-center mt-10">

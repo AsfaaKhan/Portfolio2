@@ -13,7 +13,7 @@ const FontNic = Niconne(
 export default function Project() {
     return (
         <div>
-            <div className=" flex flex-col justify-center items-center text-center mt-10 mb-10">
+            <div className="  flex flex-col justify-center items-center text-center mt-10 mb-10">
                 <div >
                     <h1 className={`${FontNic.className}  font-bold text-8xl `}>Explore My Projects</h1>
                 </div>

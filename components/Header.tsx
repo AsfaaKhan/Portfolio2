@@ -30,20 +30,20 @@ export default function Header() {
                     </div>    
                     {/* NAVBAR ITEMS */}
                     <div className="hidden md:flex justify-end gap-10 text-xl" >
-                        <Link href="/" className="hover:text-primary hover:underline">Home</Link>
-                        <Link href="/aboutPage"  className="hover:text-primary hover:underline">About</Link>
-                        <Link href="/projectPage"  className="hover:text-primary hover:underline" > Portfolio</Link>
-                        <Link href="/contactPage"  className="hover:text-primary hover:underline"> Contact</Link>
+                        <Link href="/" className="hover:text-primary hover:underline text-black">Home</Link>
+                        <Link href="/aboutPage"  className="hover:text-primary hover:underline text-black">About</Link>
+                        <Link href="/projectPage"  className="hover:text-primary hover:underline text-black" > Portfolio</Link>
+                        <Link href="/contactPage"  className="hover:text-primary hover:underline text-black"> Contact</Link>
                     </div> 
     
                     {/* HAMBURGER NAVBAR */}
-                    <div className="md:hidden p-4 flex flex-col justify-center items-center gap-3" onClick={handleNavbar} >
+                    <div className="md:hidden p-4 flex flex-col justify-center text-black items-center gap-3" onClick={handleNavbar} >
                         {navbar ? <CgMenuMotion  size={40}/> : <CgMenu size={40}/>}
                     </div>
                 </div>
 
                 {navbar && (
-                    <div className="md:hidden bg-white p-4 flex flex-col justify-center items-center gap-4 text-center text-xl" >
+                    <div className="md:hidden bg-white p-4 flex flex-col justify-center items-center gap-4 text-center text-xl text-black" >
                         <Link href="/"  
                         className="hover:text-primary hover:underline" onClick={handleNavbar}>Home</Link>
                         <Link href="/aboutPage"  className="hover:text-primary
