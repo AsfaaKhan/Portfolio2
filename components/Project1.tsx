@@ -54,6 +54,7 @@ export default function Project() {
                         </Image>
                         <Link href="https://perfume-website-sigma.vercel.app/" className="font-bold text-[25px] hover:underline hover:text-primary " target ="_blank">View</Link>
                     </div>
+                    <Link href="/projectPage" className="font-bold hover:border-[1px] border-primary text-2xl hover:text-white shadow-md p-4">View Projects</Link> 
                 </div>
 
               

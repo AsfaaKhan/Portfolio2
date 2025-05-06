@@ -8,39 +8,39 @@ export default function Project2() {
             <div className=" flex flex-col justify-center items-center text-center mt-10 mb-10">
              <div className="grid grid-cols-1 md:grid-cols-2 gap-20 mt-10 " >
                     <div className="style  ">
-                        <Image src={"/images/project5.png"}
+                        <Image src={"/images/5.png"}
                             alt="project Image"
                             width={300}
                             height={300}>
                         </Image>
-                        <Link href="https://portfolio-website-omega-taupe-58.vercel.app/" className="font-bold text-[25px] hover:underline hover:text-primary   " target ="_blank">View</Link>
+                        <Link href="https://blogger-website-nine.vercel.app/" className="font-bold text-[25px] hover:underline hover:text-primary   " target ="_blank">View</Link>
                     </div>
 
                     <div className="style">
-                        <Image src={"/images/project6.png"}
+                        <Image src={"/images/7.png"}
                             alt="project Image"
                             width={300}
                             height={300}>
                         </Image>
-                        <Link href="https://perfume-website-sigma.vercel.app/" className="font-bold text-[25px] hover:underline hover:text-primary " target ="_blank">View</Link>
+                        <Link href="https://e-commerce-website-ten-gamma.vercel.app/" className="font-bold text-[25px] hover:underline hover:text-primary " target ="_blank">View</Link>
                     </div>
 
                     <div className="style">
-                        <Image src={"/images/project7.png"}
+                        <Image src={"/images/8.png"}
                             alt="project Image"
                             width={300}
                             height={300}>
                         </Image>
-                        <Link href="https://tour-website-navy.vercel.app/" className="font-bold text-[25px] hover:underline hover:text-primary " target ="_blank">View</Link>
+                        <Link href="https://practice-of-mock-api.vercel.app/" className="font-bold text-[25px] hover:underline hover:text-primary " target ="_blank">View</Link>
                     </div>
 
                     <div className="style">
-                        <Image src={"/images/project8.png"}
+                        <Image src={"/images/9.png"}
                             alt="project Image"
                             width={300}
                             height={300}>
                         </Image>
-                        <Link href="https://portfolio-blue-zeta-68.vercel.app/" className="font-bold text-[25px] hover:underline hover:text-primary " target ="_blank">View</Link>
+                        <Link href="https://product-detail-website.vercel.app/" className="font-bold text-[25px] hover:underline hover:text-primary " target ="_blank">View</Link>
                     </div>
                 </div>
             </div>
