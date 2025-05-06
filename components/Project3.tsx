@@ -2,7 +2,7 @@ import Image from "next/image"
 import Link from "next/link";
 
 
-export default function Project2() {
+export default function Project3() {
     return (
         <div>
             <div className=" flex flex-col justify-center items-center text-center mt-10 mb-10">
