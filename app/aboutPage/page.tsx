@@ -10,16 +10,16 @@ const FontNic = Niconne (
 
 export default function MainAbout(){
     return(
-        <div className="mt-24 my-10">
+        <div className="pt-24 py-10 bg-white text-black ">
 
             {/* Container 1 */}
-            <div className="flex flex-col justify-center items-center text-center mt-10">
-             <h1 className={`${FontNic.className} font-bold text-8xl pb-1 `}>About</h1>
+            <div className="flex flex-col justify-center items-center text-center mt-10 text-black">
+             <h1 className={`${FontNic.className} text-black font-bold text-8xl pb-1 `}>About</h1>
 
                 <div className=" mt-4 flex flex-col md:flex-row justify-between md:gap-32">
 
                 <div className="flex flex-col  justify-center items-center text-center gap-10">
-                    <div className="font-bold text-2xl underline "><h1>Hey, What Do You Want to Know?</h1>
+                    <div className="font-bold text-2xl underline text-black "><h1>Hey, What Do You Want to Know?</h1>
                     </div>
 
                     <div className="w-[300px] text-xl">

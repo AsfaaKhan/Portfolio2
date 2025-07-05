@@ -4,8 +4,8 @@ import Link from "next/link";
 
 export default function Project2() {
     return (
-        <div>
-            <div className=" flex flex-col justify-center items-center text-center mt-10 mb-10">
+        <div className="bg-white text-black">
+            <div className=" flex flex-col justify-center items-center text-center pt-10 pb-10">
              <div className="grid grid-cols-1 md:grid-cols-2 gap-20 mt-10 " >
                     <div className="style  ">
                         <Image src={"/images/project5.png"}

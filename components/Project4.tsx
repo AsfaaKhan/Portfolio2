@@ -2,10 +2,14 @@ import Image from "next/image"
 import Link from "next/link";
 
 
+
 export default function Project4() {
     return (
-        <div>
-            <div className=" flex flex-col justify-center items-center text-center mt-10 mb-10">
+        <div className="bg-white text-black">
+            <div className=" flex flex-col justify-center items-center text-center pt-10 pb-10">
+                 {/* <div >
+                    <h1 className={`${FontNic.className}  font-bold text-8xl `}>Explore My Projects</h1>
+                </div> */}
              <div className="grid grid-cols-1 md:grid-cols-2 gap-20 mt-10 " >
                     <div className="style  ">
                         <Image src={"/images/5.png"}
@@ -42,6 +46,7 @@ export default function Project4() {
                         </Image>
                         <Link href="https://product-detail-website.vercel.app/" className="font-bold text-[25px] hover:underline hover:text-primary " target ="_blank">View</Link>
                     </div>
+                      
                 </div>
             </div>
         </div>
