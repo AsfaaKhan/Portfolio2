@@ -6,7 +6,7 @@ export default function Project2() {
     return (
         <div className="bg-white text-black">
             <div className=" flex flex-col justify-center items-center text-center pt-10 pb-10">
-             <div className="grid grid-cols-1 md:grid-cols-2 gap-20 mt-10 " >
+             <div className="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-3 gap-20 mt-10 " >
                     <div className="style  ">
                         <Image src={"/images/project5.png"}
                             alt="project Image"

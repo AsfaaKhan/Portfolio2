@@ -13,7 +13,9 @@ export default function Project() {
                             width={300}
                             height={300}>
                         </Image>
+                        <div className="border-t-[1.5px] border-black">
                         <Link href="https://perfume-website-sigma.vercel.app//" className="font-bold text-[25px] hover:underline hover:text-primary   " target ="_blank">View</Link>
+                        </div>
                     </div>
 
                     <div className="style">
@@ -22,7 +24,9 @@ export default function Project() {
                             width={300}
                             height={300}>
                         </Image>
+                        <div className="border-t-[1.5px] border-black">
                         <Link href="http://portfolio-website-omega-taupe-58.vercel.app/" className="font-bold text-[25px] hover:underline hover:text-primary " target ="_blank">View</Link>
+                        </div>
                     </div>
 
                     <div className="style">
