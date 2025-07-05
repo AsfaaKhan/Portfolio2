@@ -14,7 +14,7 @@ export default function MainAbout(){
 
             {/* Container 1 */}
             <div className="flex flex-col justify-center items-center text-center mt-10 text-black">
-             <h1 className={`${FontNic.className} text-black font-bold text-8xl pb-1 `}>About</h1>
+             <h1 className={`${FontNic.className} text-black font-bold text-6xl md:text-8xl pb-1 `}>About</h1>
 
                 <div className=" mt-4 flex flex-col md:flex-row justify-between md:gap-32">
 

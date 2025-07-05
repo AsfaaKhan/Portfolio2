@@ -14,9 +14,7 @@ export default function All_Project() {
         <div className="bg-white text-black">
             <div className="  flex flex-col justify-center items-center text-center pt-10 pb-10">
 
-                <div >
-                    <h1 className={`${FontNic.className}  font-bold text-8xl `}>Explore My Projects</h1>
-                </div>
+                <h1 className={`${FontNic.className}  font-bold text-5xl md:text-6xl lg:text-8xl `}>Explore My Projects</h1>
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-20 pt-10 " >
 
                     <div className="style  ">

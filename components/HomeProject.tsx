@@ -16,7 +16,7 @@ export default function Project3() {
             <div className=" flex flex-col justify-center items-center text-center ">
 
                 <div >
-                    <h1 className={`${FontNic.className}  font-bold text-8xl `}>Explore My Projects</h1>
+                    <h1 className={`${FontNic.className}  font-bold text-5xl md:text-6xl lg:text-8xl `}>Explore My Projects</h1>
                 </div>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-20 mt-10 " >
                    <div className="style  ">
