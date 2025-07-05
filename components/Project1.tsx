@@ -13,7 +13,7 @@ export default function Project() {
                             width={300}
                             height={300}>
                         </Image>
-                        <Link href="https://portfolio-website-omega-taupe-58.vercel.app/" className="font-bold text-[25px] hover:underline hover:text-primary   " target ="_blank">View</Link>
+                        <Link href="https://perfume-website-sigma.vercel.app//" className="font-bold text-[25px] hover:underline hover:text-primary   " target ="_blank">View</Link>
                     </div>
 
                     <div className="style">
@@ -22,7 +22,7 @@ export default function Project() {
                             width={300}
                             height={300}>
                         </Image>
-                        <Link href="https://perfume-website-sigma.vercel.app/" className="font-bold text-[25px] hover:underline hover:text-primary " target ="_blank">View</Link>
+                        <Link href="http://portfolio-website-omega-taupe-58.vercel.app/" className="font-bold text-[25px] hover:underline hover:text-primary " target ="_blank">View</Link>
                     </div>
 
                     <div className="style">
@@ -31,7 +31,7 @@ export default function Project() {
                             width={300}
                             height={300}>
                         </Image>
-                        <Link href="https://tour-website-navy.vercel.app/" className="font-bold text-[25px] hover:underline hover:text-primary " target ="_blank">View</Link>
+                        <Link href="https://portfolio2-kappa-pink.vercel.app/" className="font-bold text-[25px] hover:underline hover:text-primary " target ="_blank">View</Link>
                     </div>
 
                     <div className="style">
@@ -40,7 +40,7 @@ export default function Project() {
                             width={300}
                             height={300}>
                         </Image>
-                        <Link href="https://perfume-website-sigma.vercel.app/" className="font-bold text-[25px] hover:underline hover:text-primary " target ="_blank">View</Link>
+                        <Link href="https://tour-website-navy.vercel.app/" className="font-bold text-[25px] hover:underline hover:text-primary " target ="_blank">View</Link>
                     </div> 
                 </div>
             </div>
