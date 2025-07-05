@@ -1,6 +1,6 @@
 import Section from "@/components/HeroSection"
 import About from "@/components/About"
-import Project from "@/components/Project3"
+import Project from "@/components/HomeProject"
 import Link from "next/link"
 
 export default function Home() {

@@ -28,7 +28,6 @@ body {
 
 .style{
   transition:  transform 0.3s ease , box-shadow 0.3s ease;
-  border: 2px solid #fca503;
   border-radius: 5px;
   box-shadow: 2px 5px 5px 5px  #a5a29d;
 }
