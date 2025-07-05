@@ -18,7 +18,7 @@ export default function Header() {
                     {/* LOGO */}
                     <div className="text-black  text-2xl flex  justify-center items-center gap-2" > 
                         <Image
-                            src="/images/icons8-portfolio-64.png"
+                            src="/images/aklogo.png"
                             width={50}
                             height={50}
                             alt="navbar image"
